@@ -20,7 +20,7 @@ int main(void)
 				putchar(' ');
 				putchar((a / 10) + 48);
 				putchar((a % 10) + 48);
-				if (b= 98 || a != 99)
+				if (b != 98 || a != 99)
 				{
 					putchar(',');
 					putchar(' ');
