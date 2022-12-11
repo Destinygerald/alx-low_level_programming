@@ -9,6 +9,7 @@ int main(void)
 {
 	int a;
 	int b;
+
 	for (b = 0; b < 100; b++)
 	{
 		for (a = 0; a < 100; a++)
