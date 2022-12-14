@@ -14,8 +14,6 @@ void print_times_table(int n)
 		 {
 			 for (mul = 0; mul <= n; mul++)
 			 {
-				 _putchar(',');
-				 _putchar(' ');
 				 prod = mul * num;
 
 				 if (prod <= 99)
@@ -32,6 +30,9 @@ void print_times_table(int n)
                        			 _putchar((prod / 10) + '0');
 				}
 				_putchar((prod % 10) + '0');
+				_putchar(',');
+                                _putchar(' ');
+
                		 }
                 _putchar('\n');
         	}
