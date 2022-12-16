@@ -8,14 +8,8 @@
 
 int _isdigit(int c)
 {
-	int a = 0;
-
-	while (a < 10)
-	{
-		if (c == a)
-			return (1);
-		else
-			return (0);
-		a++;
-	}
+	if ((c >= 0) && (c <= 9))
+		return (1);
+	else
+		return (0);
 }
